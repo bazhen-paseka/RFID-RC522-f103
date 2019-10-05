@@ -31,6 +31,12 @@
 	#include <stdio.h>
 	#include "MFRC522.h"
 
+	//	SPI3 сконфигурирован в режиме Master, mode 0, скорость 2.25 Мбит/с (делитель 32).
+	//	PA4	------> GPIO_Output	[Label: CS][MFRC522 SDA]
+	//	PA5	------> SPI1_SCK [MFRC522 SCK]
+	//	PA6	------> SPI1_MISO [MFRC522 MISO]
+	//	PA7	------> SPI1_MOSI [MFRC522 MOSI]
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
